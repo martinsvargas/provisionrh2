@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+section#header-logo{width:100%; }
+section#header-logo img{width:100%; height:auto;}
+
+header#header-wrap{background-color:#3FF;}
+
+section#header-infos{width:100%;}
+
+nav#main-navigator{width:100%; }
+nav#main-navigator ul li span{display:block;}
+nav#main-navigator ul li p{display:none;}
+
+/* chamada principal */
+section#splash-main{padding:0px; margin-bottom:20px; width:100%;}
+section#splash-main figure img{width:100%; height:auto;}
+section#splash-main figure{ float:left; width: 100%;}
+
+section#content-text-main{width:100%;}
+aside#right-content{display:none;}

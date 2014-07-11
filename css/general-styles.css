@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+*{padding:0; margin:0;}
+
+/* text */
+body{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+h1, h2, h3, h4, h5, h6, p, li, label, a, figcaption{margin:0px; padding:0px; padding-bottom:10px;}
+h1, h2, h3, h4, h5, h6{color:#d52b1e;}
+p, li, label, a, figcaption{}
+
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+p{text-align:justify;}
+strong{}
+italic{}
+
+ul{margin:0px;}
+ul li{}
+ul li a{}
+
+a{color:#d4d4d4;}
+
+dl{}
+dl dt{}
+dl dd{}
+
+/* Form */
+
+form{}
+form input{}
+form label{}
+form textarea{}
+form select{}
+form buttom{}
+
+/* images */
+img{margin-bottom:10px;}
+figure{}
+figcaption{}
+
+/* classes auxiliares */
+.line-divisor{border-bottom:#CCC 1px solid; margin-bottom:15px;}
+.style1{}
+.style2{}
+.style3{}
+.style4{}
+
+/* classes abstratas */
+.logo{}
+.title{}
+.text{}
+.phone{}
+.email{}
+.adress{}
+.site{}
+.banner{}
+.navigator{}
+.grid{}
+.list{}
+.image{}
+.logo{}
+.galery{}
+.social_media{}
+.form{}
+.col{}
+.table{}
+.black{}
+.linkspatrocinados{}
+.logo{}
+.infos{}
+.space{}
+.rows{}
+
+
+/* responsividade */
+@media all and (max-width : 500px){
+
+	
+}

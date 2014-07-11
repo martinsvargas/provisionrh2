@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+*{}
+/*
+01 = 8.333333333333332%
+02 = 16.666666666666664%
+03 = 25%
+04 = 33.33333333333333%
+05 = 41.66666666666667%
+06 = 50%
+07 = 58.333333333333336%
+08 = 66.66666666666666%
+09 = 75%
+10 = 83.33333333333334%
+11 = 91.66666666666666%
+12 = 100%
+*/
+
+/* No responsive */
+#site{}
+
+header#header-wrap, div#content-wrap, footer#footer-wrap{width:100%; clear:both;}
+div#header-section, div#banner-section, div#content-section, div#infos-section, div#copyright-section{width:100%; clear:both;}
+div#header-section2, div#banner-section2, div#content-section2, div#infos-section2, div#copyright-section2{width:960px; margin:auto; clear:both; padding:15px 0px 15px 0px; float:none;}
+
+div#header-section{background-color:#000000;}
+div#banner-section{background:#d52b1e; border-top:5px #FFF solid; border-bottom:#000 5px solid;}
+div#content-section{}
+div#infos-section{background:#000; border-top:#d52b1e 5px solid;}
+div#copyright-section{background:#404040; border-bottom:#000 5px solid;}
+
+div#header-section2{}
+div#banner-section2{padding:0px;}
+div#content-section2{}
+div#infos-section2{}
+div#copyright-section2{}
+
+
+.cols{  min-height: 1px;  padding-right: 15px;  padding-left: 15px; float:left;}
+.cols1{  min-height: 1px; float:left;}
+
+/* -------------------------Header-------------------------------- */
+
+div#header-main > section, div#header-main nav{}
+div#header-main > footer{float:none; clear:both;}
+
+/* logo header */
+section#header-logo{width:25%;}
+section#header-logo div{background:#FFF;}
+section#header-logo div img{}
+
+/* infos header */
+section#header-infos{width:75%;}
+section#header-infos p{float:right;}
+section#header-infos p strong{}
+
+/* slogan header */
+section#header-slogan{}
+
+/* destaque header */
+section#header-destaque{}
+
+/* menu header */
+nav#main-navigator{width:75%; }
+nav#main-navigator ul{float:right; margin-top:40px;}
+nav#main-navigator ul li{display:block; float:left;}
+nav#main-navigator ul li.divider{width:20px;}
+nav#main-navigator ul li.submenu ul.sublinks{display:none; position:absolute; top:0px; margin-top:80px; width:180px; height:150px; background:#CCC;}
+nav#main-navigator ul li.submenu ul.sublinks li{float:none;}
+nav#main-navigator ul li a{font-size:18px; font-style:italic;}
+nav#main-navigator ul li.active{}
+nav#main-navigator ul li.active a{color:#d52b1e;}
+nav#main-navigator ul li:hover{}
+nav#main-navigator ul li:hover a{}
+
+/* social media */
+section#header-social-media{}
+section#header-banner{}
+section#header-chamada{}
+
+/* banner header */
+section#header-banner{position:relative; width:100%; clear:both; margin-top:10px;}
+
+section#header-banner div#carousel-example-generic{}
+section#header-banner div#carousel-example-generic ol.carousel-indicators{}
+section#header-banner div#carousel-example-generic div.carousel-inner div.item img{}
+
+section#header-banner div#carousel-example-generic div#carousel-inner{}
+
+
+
+/* ----------------------------------Content------------------------ */
+
+/* cabeçalho do conteudo */
+header#content-header{width:100%;}
+header#content-header p.slogan{text-align:center; font-size:18px; margin-bottom:20px;}
+
+/* chamada principal */
+section#splash-main{padding:0px; margin-bottom:20px; width:100%;}
+section#splash-main figure img{width:100%; height:auto;}
+section#splash-main figure{ float:left; width: 25%;}
+
+section#splash-main figure img:hover{}
+
+/* chamada secundaria */
+
+section#splash-sec{}
+
+/* acrdeão */
+dl#lista-item{}
+dl#lista-item dt, dl#lista-item dd{}
+dl#lista-item dt{}
+dl#lista-item dd{}
+dl#lista-item dt.ui-state-active{}
+
+/* texto principal do conteudo */
+section#content-text-main{width:66.66666666666666%;}
+section#content-text-main-100{width:100%;}
+
+/* textos secundarios do conteudo */
+section#content-text-second{}
+
+/* informações de contato do conteudo */
+section#content-infos{}
+
+/* conteudo lateral esquerda do site */
+aside#left-content{}
+
+/* conteudo lateral direita */
+aside#right-content{width:33.33333333333333%;}
+
+/* galeria de fotos */
+section#photo-galery{}
+
+/* ilustrações da página */
+section#ilustration{}
+
+/* blocos de produtos ou serviços */
+section#display-blocks{}
+section#display-blocks articles{}
+
+
+/* Formulario de contato */
+section#contact-form{}
+section#contact-form form{width:100%;}
+section#contact-form form article{width:100%;}
+section#contact-form form article label{float:left;}
+section#contact-form form article input{float:right; width:70%;}
+section#contact-form form article.textarea{}
+section#contact-form form article.textarea textarea{width:100%; height:110px; clear:both;}
+section#contact-form form article.button{}
+section#contact-form form article.button button{}
+
+/* mapa de contato */
+section#maps{}
+section#maps iframe{}
+
+/* informaçoes de contato */
+section#contct-infos{}
+section#contato-infos article{}
+
+/* */
+
+/* rodapé do conteudo do site */
+
+/* ----------------------------------Footer-------------------------- */
+
+div#infos-section2 *, div#copyright-section2 *{color:#d4d4d4;}
+
+/* infos foter */
+section#footer-contact-infos{width:35%;}
+section#footer-contact-infos p{}
+
+/* informacoes de contato */
+section#footer-clients{width:40%;}
+
+/* mapa de contato */
+section#footer-maps{width:25%;}
+
+/* copyright footer */
+section#footer-copyright-infos{width:100%;}
+
+
